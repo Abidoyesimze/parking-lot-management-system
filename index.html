@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parking Lot Management System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Parking Lot Management System</h1>
+    <div class="parking-lot">
+      <div class="slot small" id="slot1">Slot 1 (Small)</div>
+      <div class="slot small" id="slot2">Slot 2 (Small)</div>
+      <div class="slot small" id="slot3">Slot 3 (Small)</div>
+      <div class="slot small" id="slot4">Slot 4 (Small)</div>
+      <div class="slot small" id="slot5">Slot 5 (Small)</div>
+      <div class="slot small" id="slot6">Slot 6 (Small)</div>
+      <div class="slot small" id="slot7">Slot 7 (Small)</div>
+      <div class="slot small" id="slot8">Slot 8 (Small)</div>
+      <div class="slot small" id="slot9">Slot 9 (Small)</div>
+      <div class="slot small" id="slot10">Slot 10 (Small)</div>
+      <div class="slot large" id="slot11">Slot 11 (Large)</div>
+      <div class="slot large" id="slot12">Slot 12 (Large)</div>
+      <div class="slot large" id="slot13">Slot 13 (Large)</div>
+      <div class="slot large" id="slot14">Slot 14 (Large)</div>
+      <div class="slot large" id="slot15">Slot 15 (Large)</div>
+    </div>
+    <div class="controls">
+      <label for="vehicleSize">Vehicle Size:</label>
+      <select id="vehicleSize">
+        <option value="small">Small</option>
+        <option value="large">Large</option>
+      </select>
+      <button onclick="parkVehicle()">Park Vehicle</button>
+      <button onclick="removeVehicle()">Remove Vehicle</button>
+    </div>
+    <div id="message"></div>
+    <div class="dashboard">
+      <h2>Dashboard</h2>
+      <p>Total Amount Collected: <span id="totalAmount">0</span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

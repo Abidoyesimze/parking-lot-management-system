@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #333; /* Grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white; /* White text color for better contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parking-lot {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .slot {
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+  
+  .small {
+    background-color: #a0d6b4;
+  }
+  
+  .large {
+    background-color: #f1a5a5;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  #message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .dashboard {
+    margin-top: 20px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .dashboard h2 {
+    margin-top: 0;
+  }
+  
+  .dashboard p {
+    font-size: 18px;
+    color: #ddd;
+  }
+  
